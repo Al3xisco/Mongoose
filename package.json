@@ -1,0 +1,30 @@
+{
+  "name": "ProyectoBD",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.3",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.2"
+  },
+
+   "Comentarios": {
+  " Start --> --npm start-- va a ejecutarse el comando": "1",
+  " Dev --> Desarrollo --npm run dev-- cambios solos autom": "2"
+  }
+
+}
+
+ 

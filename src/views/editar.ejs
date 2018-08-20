@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Proyecto MongoDB</title>
+
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="https://bootswatch.com/4/sketchy/bootstrap.min.css"  crossorigin="anonymous">
+
+	</head>
+	<body>
+
+		<nav class="navbar navbar-dark bg-dark mb-4">
+			<a href="/" class="navbar-brand">Administrador de Animales</a>
+		</nav>
+
+
+
+	<div class="container">
+
+	  <div class="row">
+	    <!--FORM-->
+	    <div class="col-md-5">
+	      <div class="card">
+	        <div class="card-body">
+	          <form action="/editar/<%= mod._id %>" method="post">
+	            <div class="form-group">
+											<label for="">Nombres</label>
+                      <input  type="text" name="nombres" value="<%= mod.nombres%>" class="form-control">
+                      <label for="">Apellidos</label>
+                      <input type="text" name="apellidos" value="<%= mod.apellidos%>" class="form-control">
+                      <label for="">Edad</label>
+                      <input type="number" name="edad" value="<%= mod.edad%>" class="form-control">
+											<br>
+	            				<button class="btn btn-block btn-info " type="submit">Agregar</button>
+	          </form>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+</div>
+</body>
+</html>
